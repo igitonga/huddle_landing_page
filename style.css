@@ -39,8 +39,8 @@ body .content .text-cont .button {
   color: #674baf;
   padding: .6em 3em;
   border-radius: 30px;
-  -webkit-box-shadow: 2px 5px 8px 1px #4b3582;
-          box-shadow: 2px 5px 8px 1px #4b3582;
+  -webkit-box-shadow: 2px 5px 5px 2px #4b3582;
+          box-shadow: 2px 5px 5px 2px #4b3582;
 }
 
 body .socials-cont {

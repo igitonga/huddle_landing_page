@@ -11,6 +11,12 @@ body .logo {
   height: 40px;
 }
 
+@media (max-width: 480px) {
+  body .logo {
+    height: 30px;
+  }
+}
+
 body .content {
   margin-top: 2.5em;
   display: -ms-grid;
@@ -19,19 +25,55 @@ body .content {
       grid-template-columns: 50% 50%;
 }
 
+@media (max-width: 480px) {
+  body .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .content img {
+    height: 250px;
+  }
+}
+
 body .content .text-cont {
   margin-top: 3em;
   padding: 0 4em;
+}
+
+@media (max-width: 480px) {
+  body .content .text-cont {
+    margin-top: 1em;
+    padding: 0 2em;
+    text-align: center;
+  }
 }
 
 body .content .text-cont h1 {
   font-size: 2.5em;
 }
 
+@media (max-width: 480px) {
+  body .content .text-cont h1 {
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+}
+
 body .content .text-cont .text {
   line-height: 25px;
   letter-spacing: 1px;
   margin-bottom: 2em;
+}
+
+@media (max-width: 480px) {
+  body .content .text-cont .text {
+    letter-spacing: 1px;
+  }
 }
 
 body .content .text-cont .button {
@@ -41,6 +83,12 @@ body .content .text-cont .button {
   border-radius: 30px;
   -webkit-box-shadow: 2px 5px 5px 2px #4b3582;
           box-shadow: 2px 5px 5px 2px #4b3582;
+}
+
+@media (max-width: 480px) {
+  body .content .text-cont .button {
+    padding: .6em 5em;
+  }
 }
 
 body .socials-cont {
@@ -54,6 +102,14 @@ body .socials-cont ion-icon {
   border: 1px solid #ffffff;
   border-radius: 50%;
   padding: .5em;
+}
+
+@media (max-width: 480px) {
+  body .socials-cont {
+    float: none;
+    text-align: center;
+    margin-top: 6em;
+  }
 }
 
 body .attribution {

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins&display=swap");
+body {
+  background-color: #674baf;
+  background-image: url("/images/bg-desktop.svg");
+  color: #ffffff;
+  padding: 2em;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .logo {
+  height: 40px;
+}
+
+body .content {
+  margin-top: 2.5em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+body .content .text-cont {
+  margin-top: 3em;
+  padding: 0 4em;
+}
+
+body .content .text-cont h1 {
+  font-size: 2.5em;
+}
+
+body .content .text-cont .text {
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+}
+
+body .content .text-cont .button {
+  background: #ffffff;
+  color: #674baf;
+  padding: .6em 3em;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 5px 8px 1px #4b3582;
+          box-shadow: 2px 5px 8px 1px #4b3582;
+}
+
+body .socials-cont {
+  float: right;
+  margin-top: 3em;
+}
+
+body .socials-cont ion-icon {
+  font-size: 15px;
+  margin-left: .3em;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: .5em;
+}
+
+body .attribution {
+  font-size: 11px;
+  position: fixed;
+  bottom: 0;
+}
+
+body .attribution a {
+  color: #000000;
+}
+/*# sourceMappingURL=style.css.map */
